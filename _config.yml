@@ -1,4 +1,5 @@
 # Site settings
+future: true
 title: junz✨
 description: "development record"
 url: "https://kim-junz.github.io/"
@@ -42,4 +43,3 @@ kramdown:
 
 plugins: ["jekyll-paginate"]
 exclude: ["README.md", "Gemfile", "Gemfile.lock", "screenshot.png", "vendor/"]
-futrue: true
