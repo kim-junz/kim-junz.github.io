@@ -3,6 +3,8 @@ title: junz✨
 description: "development record"
 url: "https://kim-junz.github.io/"
 baseurl: ""
+lang: ko-KR
+published: true
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 # disable_landing_page: true
@@ -13,7 +15,6 @@ author:
   twitter_username:
   facebook_username:
   github_username: kim-junz
-  linkedin_username:
 
 defaults:
   - scope:
@@ -41,3 +42,4 @@ kramdown:
 
 plugins: ["jekyll-paginate"]
 exclude: ["README.md", "Gemfile", "Gemfile.lock", "screenshot.png", "vendor/"]
+futrue: true
