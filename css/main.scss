@@ -1,5 +1,6 @@
 ---
 ---
+
 @import "uno";
 @import "tables";
 @import "monokai";
@@ -33,7 +34,7 @@ pre.highlight code,
   border-radius: 20px;
   color: #e25440;
   display: inline-block;
-  font-size: 12px;
+  font-size: 16px;
   margin: 5px 0;
   padding: 5px 10px;
   text-shadow: none;
@@ -41,12 +42,12 @@ pre.highlight code,
 }
 
 .post-meta__tags {
-  font-size: 12px;
+  font-size: 13px;
   padding: 0 5px;
 }
 
 .footer__copyright {
-    margin: 0 20px 10px;
+  margin: 0 20px 10px;
 }
 
 .user-image {
@@ -55,5 +56,5 @@ pre.highlight code,
   width: 100px;
   height: 100px;
   border: 3px solid #fff;
-  border-radius:100%;
+  border-radius: 100%;
 }
