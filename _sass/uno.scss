@@ -1905,24 +1905,30 @@ gradient .cover-red {
   position: relative;
   top: 3px;
   font-size: 36px;
+}
+
+.navigation__item {
   color: #fff;
 }
 
 nav {
-  display: inline-block;
+  //display: flex;
   position: relative;
 }
 
 .navigation {
-  display: inline-block;
-  float: left;
+  display: flex;
+  justify-content: center;
   position: relative;
   margin: 0;
   list-style-type: none;
 }
 
 .navigation__item {
-  display: inline-block;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   margin: 0 2px 0 0;
   line-height: 1em;
 }
@@ -1940,7 +1946,7 @@ nav {
 }
 
 .navigation--social {
-  margin-left: 1.5em;
+  //margin-left: 1.5em;
 }
 .navigation--social a {
   padding: 6px 8px 6px 9px;
